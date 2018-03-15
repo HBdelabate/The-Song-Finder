@@ -36,22 +36,23 @@ a:hover {
 
 #banner-wraper{
   background-image: url("images/Shower-cover-photo.jpg");
+  background-size: cover;
   height: 100vh;
 }
 
 #banner{
-  padding:200px;
-  /*background-image: url("https://unsplash.it/1300/600?random");*/
+  padding-top: 50px;
   background-size: cover;
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 #banner h1 {
   color: white;
-  font-size: 120px;
+  font-size: 100px;
   font-family: 'Pacifico', cursive;
 }
 #banner p {
+  padding-top: 20px;
   color: white;
   opacity: 0.8;
   font-size: 30px;
@@ -59,17 +60,10 @@ a:hover {
   font-family: 'Roboto', sans-serif;
 }
 
-#sous_sous_banner{
-  padding:50px;
-}
-
-#citation{
-  padding: 50px;
-}
-
 #citation h2{
+  padding-top: 30px; 
   font-family: 'Permanent Marker', cursive;
-  font-size: 75px;
+  font-size: 40px;
   color: #a4243b  /*e3170a*/;
 }
 
@@ -85,9 +79,9 @@ a:hover {
 
 .card{
   text-align: center;
- /* margin: 10px;*/
-  padding: 50px;
+  /*margin-top: 100px;*/
   font-weight: lighter;
+  padding-top: 30px;
 }
 
 #footer a {
