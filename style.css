@@ -35,14 +35,15 @@ a:hover {
 }
 
 #banner-wraper{
-  background-image: url("images/Shower-cover-photo.jpg");
+  background-image: url("images/Shower-cover-photo_miroir3.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
 #banner{
   padding-top: 50px;
-  background-size: cover;
+  /*background-size: cover;*/
   color: white;
   text-shadow: 1px 1px 1px black;
 }
@@ -52,12 +53,13 @@ a:hover {
   font-family: 'Pacifico', cursive;
 }
 #banner p {
-  padding-top: 20px;
+  padding-top: 30px;
   color: white;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 #citation h2{
@@ -67,9 +69,15 @@ a:hover {
   color: #a4243b  /*e3170a*/;
 }
 
+#signature h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  color: #a4243b  /*e3170a*/;
+}
+
 #footer{
   padding: 30px;
-  background: rgb(30, 30, 30);
+  background: #a4243b;/*rgb(30, 30, 30);*/
   color: lightgrey;
 }
 
@@ -91,3 +99,4 @@ a:hover {
 #footer a:hover {
   color: white;
 }
+
