@@ -62,6 +62,10 @@ a:hover {
   /*font-family: 'Roboto', sans-serif;*/
 }
 
+#sous_sous_banner a {
+    font-family: 'Julius Sans One', sans-serif; 
+}
+
 #citation h2{
   padding-top: 30px; 
   font-family: 'Permanent Marker', cursive;
@@ -93,6 +97,7 @@ a:hover {
 }
 
 #footer a {
+  position: right;
   color: lightgrey;
   font-size: 15px;
 }
